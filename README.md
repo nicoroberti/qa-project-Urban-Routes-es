@@ -18,12 +18,12 @@ Pasos para instalar y ejecutar el proyecto localmente:
 
 1. Clonar este repositorio:
     ```bash
-    git clone git@github.com:nicoroberti/qa-project-Urban-Grocers-app-es.git
+    git clone git@github.com:nicoroberti/qa-project-Urban-Routes-es.git
     ```
 
 2. Navegar a la carpeta del proyecto:
     ```bash
-    cd qa-project-Urban-Grocers-app-es
+    cd qa-project-Urban-Routes-es
     ```
 
 3. Trabajar localmente (si usas PyCharm):
