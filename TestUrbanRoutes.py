@@ -93,6 +93,8 @@ class TestUrbanRoutes:
         route_page.click_order_taxi_button()
         route_page.select_comfort_tariff_enabled()
         route_page.order_blanket_and_kerchief()
+        blanket_kerchief_button = self.driver.find_element(By.CLASS_NAME, 'switch-input')
+        assert blanket_kerchief_button.is_selected()
 
     def test_order_2_ice_creams(self):
         self.driver.get(data.urban_routes_url)
